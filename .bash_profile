@@ -1,9 +1,5 @@
 # Add `~/bin` to the `$PATH`
-export URL="mongodb+srv://user1:kAuaV2zr0pm30QsV@cluster0.0l8d3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 export PATH="$HOME/bin:$PATH";
-export SECRET_KEY="*c*0*30#SPIs_OSZDjango"
-export Email="s.kamahjnr@gmail.com"
-export password="*c*0*30#spideros##"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -53,10 +49,6 @@ complete -W "NSGlobalDomain" defaults;
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
 
-alias spic='/home/hope/Projects/SPIc; source akaoru/bin/activate'
-#alias python='/usr/bin/python3.9'
-alias shell='pipenv shell'
-alias run='uvicorn main:app --reload'
 
 JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 
